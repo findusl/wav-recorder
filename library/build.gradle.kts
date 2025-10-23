@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "de.findusl"
-version = "0.1.0"
+version = "0.1.1"
 
 kotlin {
     jvm()
@@ -27,6 +27,10 @@ kotlin {
 			jvmTarget.set(JvmTarget.JVM_11)
 		}
     }
+	iosX64()
+	iosArm64()
+	iosSimulatorArm64()
+	linuxX64()
 
     sourceSets {
         commonMain.dependencies {
