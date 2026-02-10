@@ -23,7 +23,7 @@ jobs:
       matrix:
         include:
           - target: jvmTest
-            os: ubuntu-latest´
+            os: ubuntu-latest
           - target: testAndroidHostTest
             os: ubuntu-latest
     runs-on: ${{ matrix.os }}

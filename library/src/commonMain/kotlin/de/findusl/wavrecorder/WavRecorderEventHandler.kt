@@ -1,3 +1,5 @@
+@file:Suppress("ktlint:standard:property-naming")
+
 package de.findusl.wavrecorder
 
 interface WavRecorderEventHandler {
@@ -6,6 +8,6 @@ interface WavRecorderEventHandler {
 	}
 
 	fun failedToInitializeOnWindows(e: Exception) {}
+
 	fun errorWhileRecording(e: Exception) {}
 }
-
